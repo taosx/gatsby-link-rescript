@@ -1,0 +1,23 @@
+{
+  "name": "gatsby-link-rescript",
+  "version": "0.1.0",
+  "reason": { "react-jsx": 3 },
+  "bs-dependencies": ["reason-react"],
+  "bsc-flags": ["-bs-super-errors"],
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "warnings": {
+    "error": "+101"
+  },
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "ppx-flags": [],
+  "refmt": 3
+}
